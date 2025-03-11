@@ -1,7 +1,3 @@
-# Perl Learning Project
-
-## Overview
-This project is designed to help you learn Perl programming through a structured approach. It covers core features, basic syntax, and advanced concepts, as well as applications of Perl in machine learning.
 
 ## Project Structure
 The project is organized into several directories:
@@ -26,25 +22,19 @@ The project is organized into several directories:
 ## Getting Started
 To get started with this project, follow these steps:
 
-1. **Clone the Repository**: 
-   ```
-   git clone <repository-url>
-   cd perl-learn
-   ```
-
-2. **Install Dependencies**: 
+1. **Install Dependencies**: 
    Use `cpanm` to install the required Perl modules listed in the `cpanfile`.
    ```
    cpanm --installdeps .
    ```
 
-3. **Explore the Code**: 
+2. **Explore the Code**: 
    Navigate to the `src` directory to explore the various scripts and learn from them.
 
-4. **Run Examples**: 
+3. **Run Examples**: 
    You can run the example scripts located in the `examples` directory to see practical applications of Perl.
 
-5. **Test the Code**: 
+4. **Test the Code**: 
    Run the unit tests in the `tests` directory to ensure everything is working correctly.
    ```
    perl tests/unit_tests.pl
@@ -55,9 +45,3 @@ Each script in the `src` directory is designed to be run independently. You can 
 ```
 perl src/basics/hello_world.pl
 ```
-
-## Contributing
-Contributions are welcome! If you have suggestions for improvements or additional features, feel free to submit a pull request.
-
-## License
-This project is open-source and available under the MIT License.
